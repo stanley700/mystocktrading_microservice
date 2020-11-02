@@ -18,4 +18,8 @@
     <Folder Include="Images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks\WebHost.Customization\WebHost.Customization.csproj" />
+  </ItemGroup>
+
 </Project>

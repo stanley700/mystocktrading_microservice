@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock.API", "Stock.API\Stoc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{47AD379B-EBE2-4B94-9CBB-A3FD49ED9018}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebHost.Customization", "WebHost.Customization", "{D787B470-61C0-4AED-BECB-409746AA2782}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHost.Customization", "BuildingBlocks\WebHost.Customization\WebHost.Customization.csproj", "{2AC34A66-EEAF-48BE-902C-0B4BE1A88028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +27,17 @@ Global
 		{015D05B7-FD7D-47E8-AA2D-94C1B1E216C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{015D05B7-FD7D-47E8-AA2D-94C1B1E216C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{015D05B7-FD7D-47E8-AA2D-94C1B1E216C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC34A66-EEAF-48BE-902C-0B4BE1A88028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC34A66-EEAF-48BE-902C-0B4BE1A88028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC34A66-EEAF-48BE-902C-0B4BE1A88028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC34A66-EEAF-48BE-902C-0B4BE1A88028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D787B470-61C0-4AED-BECB-409746AA2782} = {47AD379B-EBE2-4B94-9CBB-A3FD49ED9018}
+		{2AC34A66-EEAF-48BE-902C-0B4BE1A88028} = {D787B470-61C0-4AED-BECB-409746AA2782}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6141E513-AD63-4D13-95FF-ED93206A8402}
